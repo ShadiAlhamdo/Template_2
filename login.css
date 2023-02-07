@@ -1,0 +1,92 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+.login{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 450px;
+    border: 5px solid rgb(68, 65, 65);
+    border-radius:5px ;
+    transition: 0.5s ease;
+    padding: 120px;
+    overflow: hidden;
+}
+.login:hover{
+    box-shadow: -13px -13px 0px rgb(214, 140, 28);
+}
+.picture{
+width: 100%;
+position: relative;
+height: 250px;
+text-align: center;
+margin-left: 40px;
+ 
+
+}
+h2{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+   bottom: 30px;
+    color:#000 ;
+}
+.input{
+    position: relative;
+    margin:20px 0 ;
+    
+}
+.input input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border:none ;
+    border-radius: 10px;
+    padding-left: 30px;
+    border-bottom: 2px solid #b3b3b3;
+    transition: 0.5s ease;
+}
+.input input:hover{
+    border-bottom:10px solid #ce750f ;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    background-color:none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    background-color: #ce750f;
+    color: white;
+}
+.remmebr{ width: 580px;
+    left: -60px;
+    position: absolute;
+text-align: center; 
+margin-top: 45px;
+}
+.remmebr a{
+    float: right;
+   
+}
+.wave{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
